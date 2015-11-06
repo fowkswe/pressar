@@ -6,10 +6,12 @@ It is in very early development stages, but the intention is to abstract away th
 
 The desired model heirarchy is follows:
 
+```
 Post
  ├ Categories
  ├ Tags
  ├ Images
+```
 
 
 ## Installation
