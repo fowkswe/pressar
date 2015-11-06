@@ -1,13 +1,23 @@
+# -*- encoding: utf-8 -*-
+$:.push File.expand_path("../lib", __FILE__)
+require "pressar/version"
+
 Gem::Specification.new do |s|
   s.name        = 'pressar'
-  s.version     = '0.0.0'
-  s.date        = '2015-11-03'
+  s.version     = Pressar::VERSION.dup
+  s.platform    = Gem::Platform::RUBY
+  s.licenses    = ["MIT"]
   s.summary     = "pressar"
   s.description = "ActiveRecord models for the Wordpress database schema"
   s.authors     = ["Billy Fowks"]
   s.email       = 'bf@billyfowks.com'
-  s.files       = ["lib/pressar.rb"]
   s.homepage    =
     'http://rubygems.org/gems/pressar'
-  s.license       = 'MIT'
+  s.rubyforge_project = "pressar"
+
+  s.files         = `git ls-files`.split("\n")
+  s.test_files    = `git ls-files -- test/*`.split("\n")
+  s.require_paths = ["lib"]
+
+  s.add_dependency('', '')
 end
