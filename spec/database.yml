@@ -1,0 +1,6 @@
+pressar_test:
+  adapter: 'sqlite3'
+  host: 'localhost'
+  username: 
+  password:  
+  database: 'pressar_test'

@@ -30,3 +30,9 @@ gem 'pressar'
 
 Finally, restart the server to apply the changes.
 
+
+## TODO
+
+Abstract database connection
+Abstract s3
+Config for short tag replacements-  yml file?

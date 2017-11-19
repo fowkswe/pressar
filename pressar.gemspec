@@ -19,5 +19,11 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- test/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency('', '')
+
+  s.add_runtime_dependency 'activerecord', '4.2.3'
+  s.add_runtime_dependency 'php-serialize', '1.1.0'
+  # s.add_development_dependency 'rspec'
+  # s.add_development_dependency 'factory_girl'
+  s.add_development_dependency 'sqlite3', '1.3.11'
+
 end
