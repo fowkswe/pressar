@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
 
-  s.add_runtime_dependency 'activerecord', '4.2.3'
+  s.add_runtime_dependency 'activerecord', '4.2.7.1'
   s.add_runtime_dependency 'php-serialize', '1.1.0'
   # s.add_development_dependency 'rspec'
   # s.add_development_dependency 'factory_girl'
